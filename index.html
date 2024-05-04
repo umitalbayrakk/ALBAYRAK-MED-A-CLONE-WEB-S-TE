@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha384-Q6s5777A2Hmrnke08VA+0HepNEeNVMpMZU0aC4q4MEUz49fS8SKHpvf1VIIJSKqj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-VtFoiX5rfG2W8A+IUw5veA+1ecC64UaO7J2UL9Fq+co5Bvv4/5tFpUn9vPU1L9x" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-fJN1uhCmLUOfJ1KGNFQyYQL7xlz3kPMD8WA7XMqN7Pu1K49amfcGPvXuQ5/dqFq" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/header.css">
+    <style>
+        #mySlider img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            margin-top: 20px;
+            z-index: -1;
+        }
+        .no-gutters {
+            margin-right: 0;
+            margin-left: 0;
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+    /*-Navbar sabit tutmak için gerenkod*/   
+    nav {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+    </style>
+    <title>ALBAYRAK MEDİA A.Ş</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+          <div class="logo"><a href="index.html" style="color: #ff0000;">ALBAYRAK MEDİA A.Ş</a></div>
+          <ul class="menu">
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="hakkımızda.html">Hakkımızda</a></li>
+            <li><a href="vizyonumuz.html">Vizyonumuz</a></li>
+            <li><a href="yöneticilerimiz.html">Yöneticilerimiz</a></li>
+            <li><a href="markalarımız.html">Markalarımız</a></li>
+            <li><a href="iletişim.html">İletişim</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid no-gutters" style="position: relative; margin-top: 60px;">
+        <div id="mySlider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/hakkimizda-v2.jpg.webp" class="d-block w-100" alt="Slide 1">
+                </div>
+        </div>
+    </div>
+    <video class="w-100" autoplay loop muted>
+      <source src="videos/Albayrak Medya Tanıtım Filmi.mp4" type="video/mp4" />
+    </video>
+  <div class="w3-container w3-light-grey" style="padding:128px 16px">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+        <h3>Yerinde ve doğru haber.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
+        <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+      </div>
+      <div class="w3-col m6">
+        <img class="w3-image w3-round-large" src="images/media1.jpg" alt="Buildings" width="700" height="394">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-container w3-light-grey" style="padding:128px 16px">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+        <h3>Özgür Haber Üretmek.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
+        <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+      </div>
+      <div class="w3-col m6">
+        <img class="w3-image w3-round-large" src="images/media2.jpg" alt="Buildings" width="700" height="394">
+      </div>
+    </div>
+  </div>
+  
+  <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">20+</span>
+      <br>Ortaklık
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">30+</span>
+      <br>Proje
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">90+</span>
+      <br>İçerik 
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">3000+</span>
+      <br>Basın Toplantısı
+    </div>
+  </div>
+
+
+  <div class="w3-container" style="padding:128px 16px" id="work">
+    <h3 class="w3-center">ÇALIŞMALARIMIZ</h3>
+  
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-col l3 m6">
+        <img src="images/re.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="images/re.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="images/re.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="images/re.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+      </div>
+    </div>
+  
+    <div class="w3-row-padding w3-section">
+      <div class="w3-col l3 m6">
+        <img src="images/re.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="images/re.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="images/re.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="images/re.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-container w3-light-grey w3-padding-64">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+        <h3>Haber Yüzdeliklerimiz</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+        tempor incididunt ut labore et dolore.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+        tempor incididunt ut labore et dolore.</p>
+      </div>
+      <div class="w3-col m6">
+        <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Videolu Haber</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Dijital Haber</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Fotoğraflı Haber</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="w3-center w3-black w3-padding-64">
+    <div class="w3-xlarge w3-section">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+    <p class="w3-text-white">Tüm Hakları Saklıdır 2023 <a href="#" title="ALBAYRAK MEDİA A.Ş" target="_blank" class="w3-hover-text-green">ALBAYRAK MEDİA A.Ş</a></p>
+  
+</body>
+</html>
